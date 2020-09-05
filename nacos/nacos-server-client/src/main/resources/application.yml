@@ -1,0 +1,10 @@
+server:
+  port: 8003
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ubuntu.server.cn:8848
+  application:
+    name: service-provider-client

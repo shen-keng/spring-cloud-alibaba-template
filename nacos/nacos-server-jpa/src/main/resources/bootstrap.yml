@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: nacos-config-jpa-example
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ubuntu.server.cn:8848
+      config:
+        server-addr: ubuntu.server.cn:8848

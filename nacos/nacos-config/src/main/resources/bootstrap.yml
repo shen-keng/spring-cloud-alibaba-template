@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: nacos-config-example
+  cloud:
+    nacos:
+      config:
+        server-addr: ubuntu.server.cn:8848
